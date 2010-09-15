@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.summary     = "Use jQuery with Rails 3"
   s.description = "This gem provides a Rails generator to install jQuery and the jQuery-ujs driver into your Rails 3 application, and then have them included automatically instead of Prototype."
 
-  s.required_rubygems_version = ">= 1.3.6"
+  s.required_rubygems_version = "~> 1.3.6"
   s.rubyforge_project         = "jquery-rails"
 
   s.add_dependency "rails", "~> 3.0"
-  s.add_development_dependency "bundler", ">= 1.0.0.rc.6.pre"
+  s.add_development_dependency "bundler", "~> 1.0.0"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
